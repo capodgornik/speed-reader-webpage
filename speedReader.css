@@ -1,0 +1,75 @@
+/*
+This file is the stylesheet for the speedreader HTML code.
+*/
+
+body {
+    background-color: #EAF6F6;
+    font-family: Garamond, sans-serif;
+    font-size: 12pt;
+    margin: 0px;
+    padding: 0px;
+}   
+
+h1, #userinterface{
+    text-align: center;
+}
+
+#userinterface {
+    background-color: #FFFFFF;
+    border: solid 2px #8EBEBE;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 36pt;
+    font-weight: bold;
+    height: 100px;    
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#controls, #inputdiv {
+    text-align: center;
+    width: 100%;
+}
+
+#playcontrols, #speed, #size, #inputtext {
+    border: none;
+    display: inline-block;
+    text-align: left;
+}
+
+.playbutton {
+    background-color: white;
+    border: solid gray 1px;
+}
+
+#speedchoices, #inputtextbox, .playbutton, #playcontrolslabel, #speedlabel, 
+    #sizelabel, #inputlabel {
+    margin: 2px;
+}
+
+#playcontrolslabel, #speedlabel, #sizelabel, #inputlabel {
+    border: none;
+    border-bottom: solid 1px #8EBEBE;
+    display: inline-block;
+    font-weight: bold;
+    text-align: left; 
+    padding: 2px;
+    width: 100%;
+}
+
+#inputtextbox {
+    background-color: #FFFFFF;
+    border: solid gray 1px;
+}
+
+#validators {
+    bottom: 5px; 
+    left: 5px;
+    position: fixed;
+}
+
+#checkhtml, #checkcss, #checkjs, .playbutton {
+    text-decoration: none;
+    width: 70px;
+}
